@@ -1,0 +1,121 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+  }
+
+
+* {
+    margin: 0;
+    font-family: 'poppins';
+}
+
+a, li {
+    text-decoration: none;
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    padding: 0px 44px;
+}
+
+#divider {
+    height: 20px;
+}
+
+/* ------------------------------------------------------------- */
+
+#perfil {
+    text-align: center;
+    margin: 0 auto;
+
+    width: 414px;
+
+}
+
+    #perfil p {
+        color: var(--purple);
+        font-weight: 300;
+        margin-bottom: 33px;
+    }
+
+
+    #perfil figure {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 120px;
+        margin-bottom: 20px;
+    }
+
+        #borda {
+            width: 200px;
+            height: 200px;
+            border-radius: 100%;
+
+            border: 3px solid var(--purple);
+
+            position: absolute;
+        }
+
+        #foto {
+            width: 190px;
+            height: 190px;
+
+            background-image: url(./Arquivos/MAN_7788.jpg);
+            background-position: center;
+            background-size: 100%;
+            box-sizing: border-box;
+
+            border-radius: 100%;
+        }
+
+
+/* ------------------------------------------------------------- */
+
+#socialmedia {
+    width: 414px;
+    margin: 0 auto;
+    margin-bottom: 68px;
+}
+    .links {
+        width: 414px;
+        height: 300px;
+
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .links a{
+        padding: 12px 141px;
+        box-sizing: border-box;
+
+        border: 2px solid var(--purple);
+        border-radius: 4px;
+        color: var(--purple);
+    }
+
+    .links a:hover {
+        background-color: var(--purple);
+        color: white;
+        transition: 0.5s;
+    }
+
+
+/* ------------------------------------------------------------- */
+
+#footer {
+    display: flex;
+    justify-content: center;
+}
+
+    #linkedin {
+        margin-right: 30px;
+    }
+
+    #footer a:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
