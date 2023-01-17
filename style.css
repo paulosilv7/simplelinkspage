@@ -160,6 +160,7 @@ body {
     filter: saturate(0);
 
     animation: fade-in 2s;
+    margin-bottom: 20px;
 }
 
     #linkedin {
