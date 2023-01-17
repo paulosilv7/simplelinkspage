@@ -27,7 +27,7 @@
 
 * {
     margin: 0;
-    font-family: 'poppins';
+    font-family: 'poppins', 'roboto', 'sans-serif';
 }
 
 a, li {
